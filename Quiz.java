@@ -25,5 +25,8 @@ public class Quiz {
             menu = input27.nextLine(). charAt(0);
         }
             while(menu =='y' || menu=='Y');   
+        {
+            System.out.println("Terima kasih telah bermain!");
+        }
     }
 }
