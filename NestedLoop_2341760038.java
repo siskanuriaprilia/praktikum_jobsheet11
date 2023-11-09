@@ -21,11 +21,11 @@ public class NestedLoop_2341760038 {
     for (int i = 0; i < temps.length; i++)
     {
         System.out.println("Kota ke-" + (i + 1) + ": ");
-        for(int j = 0; j < temps[0].length; j++)
+        for (double temp : temps[i]) 
         {
-            System.out.print(temps[i][j] + " ");
+            System.out.print(temps[i][1] + " ");
         }
         System.out.println();
-     }
-   }   
+     }   
+   }
 }
