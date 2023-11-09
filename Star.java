@@ -6,7 +6,7 @@ public class Star {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukkan nilai N = " );
+        System.out.println("Masukkan Nilai N = " );
         int N = sc.nextInt();
 
         for(int i=1; i<=N; i++)
